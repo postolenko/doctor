@@ -713,8 +713,7 @@ textarea:focus {
 /*-- Section 2 - Main Page --*/
 
 .sectio-2 {
-    /*padding: 10px 0;*/
-    padding: 33px 0 15px 0;
+    padding: 33px 0 7px 0;
 }
 
 .grey-bg {
@@ -726,12 +725,12 @@ textarea:focus {
 }
 
 .two-cols-templ .left {
-    width: 48%;
+    width: 50%;
     padding: 10px 2% 10px 0;
 }
 
 .two-cols-templ .right {
-    width: 52%;
+    width: 50%;
     padding: 10px 0 10px 2%;
 }
 
@@ -819,7 +818,9 @@ textarea:focus {
 }
 
 .slider-1_wrapp {
+    max-width: 550px;
     padding: 23px 0;
+    float: right;
 }
 
 .big_slider {
@@ -848,11 +849,12 @@ textarea:focus {
 
 .miniature_slider {
     /*margin: 0 -12px;*/
-    margin: 11px -12px;
+    margin: 24px -11px 10px -11px;
 }
 
 .miniature_slider .slide {
-    padding: 12px;
+    /*padding: 12px;*/
+    padding: 0 12px;
 }
 
 .miniature {
@@ -927,6 +929,39 @@ textarea:focus {
     right: 0;
     bottom: 0;
 }
+
+.slider_1-nav {
+    margin: 0 -3px;
+}
+
+.prev-btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    background-image: url(img/arrows_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -5px -1px;
+}
+
+.next-btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    background-image: url(img/arrows_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -46px -1px;
+}
+
 
 /*-- /Section 2 - Main Page --*/
 
@@ -1119,10 +1154,6 @@ textarea:focus {
     font-weight: 500;
 }
 
-/*.btn_wrapp .transparent-pill_2 {
-    margin: 25px 0;
-}*/
-
 .transparent-pill_2 .pdf {
     display: inline-block;
     vertical-align: top;
@@ -1130,6 +1161,156 @@ textarea:focus {
 }
 
 /*-- /Section 3 - Main Page --*/
+
+
+/*-- Section 5 - Main Page --*/
+
+.testimonilas {
+    margin: 39px 0 0 0;
+}
+
+.testimonial {
+    display: table;
+    width: 100%;
+    padding: 11px 0 27px 0;
+    border-bottom: 1px solid #e8e9ed;
+}
+
+.testimonial .col:nth-child(1) {
+    display: table-cell;
+    vertical-align: top;
+    width: 132px;
+    padding: 6px 10px 5px 0;
+}
+
+.testimonial .col:nth-child(2) {
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+    padding: 5px 0 5px 10px;
+}
+
+.testimonial .img-box {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #d4b166;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #fafafa;
+}
+
+.testimonial .img-box:before {
+    display: block;
+    content: "";
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: transparent;
+    border: 2px solid #fafafa;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.testimonial .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.testimonial .title {
+    margin: 0 -8px 4px -8px;
+}
+
+.testimonial .title .title-col {
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 5px 8px;
+}
+
+.testimonial .title h3 {
+    font-family: "Gotham Pro";
+    font-size: 22px;
+    line-height: 27px;
+    color: #d4b166;
+}
+
+p.date {
+    font-size: 14px;
+    line-height: 18px;
+    color: #474747;
+    font-weight: 500;
+}
+
+.testimonial p {
+    line-height: 25px;
+}
+
+.socilas-pills {
+    padding: 12px 0;
+}
+
+.socilas-pills .col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.socilas-pills .col:nth-child(1) {
+    padding: 20px 9px 10px 0;
+}
+
+.socilas-pills .col:nth-child(2) {
+    padding: 10px 0 10px 9px;
+}
+
+.socilas-pills p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.soc-tag {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #4861a6;
+    margin: 6px;
+    padding: 4px 25px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.instagram {
+    background-color: #db318c;
+}
+
+.facebook {
+    /*background-color: #db318c;*/
+}
+
+.vk {
+    background-color: #44678d;
+}
+
+/*-- /Section 5 - Main Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

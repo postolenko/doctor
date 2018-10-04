@@ -4,16 +4,7 @@ $(window).on("load",function(){
 
 });
 
-$(document).ready(function() {		
-
-	// $("select").each(function() {
-
-	// 	$(this).select2({
-	// 		minimumResultsForSearch: Infinity,
-	// 		width: '100%'
-	// 	});
-
-	// });
+$(document).ready(function() {
 
 	$('.big_slider').slick({
 	  slidesToShow: 1,
@@ -30,7 +21,17 @@ $(document).ready(function() {
 	  asNavFor: '.big_slider',
 	  arrows: false,
 	  dots: false,
-	  focusOnSelect: true
+	  focusOnSelect: true,
+	  slickNext: $(".slider_1-nav .prev-btn"),
+	  slickPrev: $(".slider_1-nav .next-btn")
+	});
+
+	$('#slider1 .prev-btn').click(function(){
+	    $("#slider1 .miniature_slider").slick('slickPrev');
+	});
+
+	$('#slider1 .next-btn').click(function(){
+	    $("#slider1 .miniature_slider").slick('slickNext');
 	});
 
 });
