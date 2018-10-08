@@ -34,5 +34,12 @@ $(document).ready(function() {
 	    $("#slider1 .miniature_slider").slick('slickNext');
 	});
 
+	$('.slider-2').slick({
+	  slidesToShow: 5,
+	  slidesToScroll: 1,
+	  arrows: true,
+	  dots: false
+	});
+
 });
 
