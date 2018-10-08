@@ -11,6 +11,7 @@ $(document).ready(function() {
 	  slidesToScroll: 1,
 	  arrows: false,
 	  dots: false,
+	  infinite: false,
 	  fade: true,
 	  asNavFor: '.miniature_slider'
 	});
@@ -21,6 +22,7 @@ $(document).ready(function() {
 	  asNavFor: '.big_slider',
 	  arrows: false,
 	  dots: false,
+	  infinite: false,
 	  focusOnSelect: true,
 	  slickNext: $(".slider_1-nav .prev-btn"),
 	  slickPrev: $(".slider_1-nav .next-btn")
@@ -38,7 +40,8 @@ $(document).ready(function() {
 	  slidesToShow: 5,
 	  slidesToScroll: 1,
 	  arrows: true,
-	  dots: false
+	  dots: false,
+	  infinite: false
 	});
 
 });
