@@ -11,8 +11,9 @@ $(document).ready(function() {
 	  slidesToScroll: 1,
 	  arrows: false,
 	  dots: false,
-	  infinite: false,
+	  loop: true,
 	  fade: true,
+	  infinite: false,
 	  asNavFor: '.miniature_slider'
 	});
 
@@ -40,8 +41,7 @@ $(document).ready(function() {
 	  slidesToShow: 5,
 	  slidesToScroll: 1,
 	  arrows: true,
-	  dots: false,
-	  infinite: false
+	  dots: false
 	});
 
 });
