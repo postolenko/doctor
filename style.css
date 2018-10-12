@@ -582,12 +582,62 @@ textarea:focus {
 
 /*-- /Icons --*/
 
+/*-- Breadcrumbs --*/
+
+.breadcrumbs_wrapp {
+    padding: 23px 0 16px 0;
+}
+
+.breadcrumbs {
+    margin: 0 -9px;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding: 10px 9px;
+}
+
+.breadcrumbs li:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-image: url(img/right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 19px;
+    right: -8px;
+}
+
+.breadcrumbs li:last-child:after {
+    display: none;
+}
+
+.breadcrumbs li a {
+    font-family: "Gotham Pro", "Arial", "Verdana", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #373737;
+}
+
+.breadcrumbs li:last-child a {
+    pointer-events: none;
+    cursor: default;
+    color: #666666;
+}
+
+/*-- /Breadcrumbs --*/
+
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
 
 .header-site {
-    padding: 17px 0 10px 0;
+    padding: 17px 0 16px 0;
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
     /*position: fixed;*/
@@ -595,6 +645,12 @@ textarea:focus {
     top: 0;
     left: 0;
     z-index: 10;
+}
+
+.header-site.fixed {
+    /*position: fixed;*/
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .header-site .left {
@@ -1921,6 +1977,45 @@ p.date {
 }
 
 /*-- /Section 7 - Main Page --*/
+
+/*-- Section 1 - Inner Page --*/
+
+.article {
+    margin: 0 0 108px 0;
+}
+
+.article h2 {
+    padding: 11px 0;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #373737;
+}
+
+.article h3 {
+    padding: 11px 0 30px 0;
+    font-family: "Ubuntu";
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #474747;
+}
+
+.article img {
+    float: right;
+    width: auto;
+    height: auto;
+    max-width: 60%;
+    margin: 67px 0 0 30px;
+}
+
+.article p {
+    padding: 14px 0;
+    line-height: 25px;
+    color: #666666;
+}
+
+/*-- /Section 1 - Inner Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
