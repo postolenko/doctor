@@ -1,19 +1,630 @@
 @media only screen and (max-width: 1280px) {
 
-	
+	.row {
+	    padding: 0 25px;
+	}
+
+}
+
+@media only screen and (max-width: 1210px) {
+
+	/*-- Section 4 - Main Page --*/
+
+	.slider-2 .slick-next {
+	    top: 100%;
+	    right: 0;
+	    margin-top: 6px;
+	    margin-right: 4px;
+	}
+
+	.slider-2 .slick-prev {
+	    top: 100%;
+	    left: auto;
+	    right: 36px;
+	    margin-top: 6px;
+	    margin-left: 0;
+	}
+
+	/*-- /Section 4 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+	/*-- Section 4 - Main Page --*/
+
+	.tab-doctor {
+		display: none;
+	}
+
+	.tabs-content:before {
+		display: none;
+	}
+
+	.tab-inner {
+	    max-width: 100%;
+	}
+
+	.tabs-content .tab {
+	    min-height: 645px;
+	}
+
+	.tab-inner p:last-child {
+	    padding-right: 0;
+	}
+
+	.tab-doctor_resp {
+	    display: block;
+	}
+
+	/*-- /Section 4 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	/*-- Section 3 - Main Page --*/
+
+	.two-cols-templ_2 .left {
+	    width: 100%;
+	    float: none;
+	    padding: 15px 0 5px 0;
+	}
+
+	.two-cols-templ_2 .right {
+	    width: 100%;
+	    float: none;
+	    padding: 15px 0 5px 0;
+	}
+
+	/*-- /Section 3 - Main Page --*/
+
+	/*-- Section 7 - Main Page --*/
+
+	.contacts_wrapp .left {
+	    width: 100%;
+	    float: none;
+	}
+
+	.contacts_wrapp .right {
+	    width: 100%;
+	    float: none;
+	}
+
+	/*-- /Section 7 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	/*-- Section 2 - Main Page --*/
+
+	.sectio-2 {
+	    padding: 24px 0 0 0;
+	}
+
+	.sectio-2 .row {
+		padding: 0;
+	}
+
+	.two-cols-templ .left {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 25px 23px 25px;
+	}
+
+	.two-cols-templ .right {
+	    width: 100%;
+	    float: none;
+	    padding: 29px 25px 22px 25px;
+	    background-color: #ffffff;
+	}
+
+	.title_wrapp h2 {
+	    padding: 1px 0 21px 0;
+	}
+
+	.two-cols-templ .beige-pill {
+	    margin: 19px 0;
+	}
+
+	.slider-1_wrapp {
+		margin: 0 auto;
+	    padding: 23px 0;
+	    float: none;
+	}
+
+	/*-- /Section 2 - Main Page --*/
+
+	/*-- Section 3 - Main Page --*/
+
+	.thumb-2 {
+	    width: 47%;
+	}
+
+	/*-- /Section 3 - Main Page --*/
 
 }
 
 @media only screen and (max-width: 768px) {
 
-	
+	/*-- Section 1 - Main Page --*/
+
+	h1 {
+		margin: 0 0 12px 0;
+	    font-size: 30px;
+	    line-height: 42px;
+	}
+
+	.promo-sect .row .promo-img {
+	    max-width: 435px;
+	}
+
+	.quote {
+	    margin: 15px 0 0 0;
+	}
+
+	/*-- /Section 1 - Main Page --*/
+
+	/*-- Section 3 - Main Page --*/
+
+	.thumbnails_2 {
+	    margin: 10px 0 25px 0;
+	}
+
+	.thumb-2 {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+
+	/*-- /Section 3 - Main Page --*/
+
+	/*-- Section 4 - Main Page --*/
+
+	.tabs_header .title_wrapp {
+	    margin-bottom: 33px;
+	}
+
+	.tabs-links label:after {
+	    width: 12px;
+	    margin-left: 7px;
+	}
+
+	.tabs-links label {
+	    margin: 5px 20px 5px 0;
+	}
+
+	.tabs-content .tab {
+	    padding-top: 19px;
+	}
+
+	.tab h2 {
+		padding: 8px 0;
+		font-size: 26px;
+		line-height: 33px;
+	}
+
+	.tab h3 {
+	    padding: 4px 0 0 0;
+	}
+
+	/*-- /Section 4 - Main Page --*/
 
 }
 
+@media only screen and (max-width: 600px) {
+
+	h3 {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+
+	p {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+
+	.row {
+	    padding: 0 15px;
+	}
+
+	/*-- Section 1 - Main Page --*/
+
+	.promo-sect {
+		background-image: url(img/promo_resp.jpg);
+	}
+
+	.promo-descript {
+	    padding: 15px 0;
+	}
+
+	.promo-descript p {
+		padding: 8px 0;
+	    font-size: 15px;
+	}
+
+	.promo-sect .row .promo-img {
+	    max-width: 82%;
+	    position: relative;
+	    bottom: -8px;
+	}
+
+	.transparent-pill {
+	    padding: 10px 10px 11px 10px;
+	    font-size: 14px;
+	}
+
+	/*-- /Section 1 - Main Page --*/
+
+	/*-- Section 2 - Main Page --*/
+
+	.title_wrapp h2 {
+	    padding: 2px 0 20px 0;
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+
+	.slider-1_wrapp {
+	    margin: 0 auto;
+	    padding-top: 0;
+	}
+
+	.about-descript p {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+
+	.thumb_1 {
+	    width: 48%;
+	    margin: 4px 1%;
+	}
+
+	.thumb_1 p {
+	    padding: 2px 0;
+	}
+
+	.beige-pill {
+	    padding: 11px 10px;
+	    font-size: 14px;
+	}
+
+	.thumb_1 p.p-1 {
+	    font-size: 35px;
+	    line-height: 51px;
+	}
+
+	/*-- /Section 2 - Main Page --*/
+
+	/*-- Section 3 - Main Page --*/
+
+	.sect-3 {
+	    padding: 27px 0;
+	}
+
+	.thumb-2 {
+	    padding: 10px 19px;
+	}
+
+	.thumb-2 .descript {
+	    min-height: auto;
+	    padding-bottom: 29px;
+	}
+
+	.thumb-2 p {
+	    font-size: 12px;
+	}
+
+	.thumb-2 .icon-box {
+	    height: 83px;
+	    margin: 26px auto 41px auto;
+	}
+
+	.two-cols-templ_2 {
+	    margin: 22px 0 13px 0;
+	}
+
+	.two-cols-templ_2 h3 {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+
+	.table {
+	    margin: 16px 0 10px 0;
+	}
+
+	.table h3 {
+	    font-size: 12px;
+	    line-height: 16px;
+	}
+
+	.table p {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.table .table-row .table-cell:nth-child(1) {
+	    padding: 16px 15px;
+	}
+
+	.table .table-row .table-cell:nth-child(2) {
+	    width: 95px;
+	    padding: 16px 15px;
+	}
+
+	.table .table-row .table-cell:nth-child(1) p:before {
+	    top: 7px;
+	}
+
+	/*-- /Section 3 - Main Page --*/
+
+	/*-- Section 4 - Main Page --*/
+
+	.tabs_header {
+	    padding: 22px 0;
+	}
+
+	.tabs-content .tab {
+		min-height: 436px;
+	    padding-bottom: 6px;
+	}
+
+	.sliders-2_sect {
+		background-color: #f7f7f7;
+		padding: 0 0 40px 0;
+	    height: auto;
+	    top: 0;
+	}
+
+	.tabs-links .tab-link {
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+
+	/*-- /Section 4 - Main Page --*/
+
+	/*-- Section 5 - Main Page --*/
+
+	.sect-5 {
+	    padding-bottom: 32px;
+	}
+
+	.testimonilas {
+	    margin: 24px 0 0 0;
+	}
+
+	.testimonial {
+	    padding: 7px 0 11px 0;
+	}
+
+	.testimonial .col:nth-child(1) {
+	    width: 90px;
+	    padding: 6px 5px 7px 0;
+	}
+	
+	.testimonial .col:nth-child(2) {
+		padding: 22px 0 5px 5px;
+	}
+
+	.testimonial .img-box {
+	    width: 80px;
+	    height: 80px;
+	}
+
+	.testimonial .img-box:before {
+	    width: 72px;
+	    height: 72px;
+	}
+
+	.testimonial .title {
+	    margin: 0 0 4px 0;
+	}
+
+	.testimonial .title h3 {
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+
+	.testimonial .title .title-col {
+		display: block;
+	    padding: 2px 0;
+	}
+
+	p.date {
+	    font-size: 14px;
+	}
+
+	.testimonial p {
+		font-size: 13px;
+	    line-height: 22px;
+	}
+
+	.socilas-pills .col:nth-child(1) {
+		display: block;
+	    padding: 10px 0 6px 0;
+	}
+
+	.socilas-pills .col:nth-child(2) {
+		display: block;
+		margin: 0 -6px;
+	    padding: 9px 0;
+	}
+
+	.socilas-pills p {
+	    font-size: 16px;
+	}
+
+	/*-- /Section 5 - Main Page --*/
+
+	/*-- Section 6 - Main Page --*/
+
+	.callback-sect {
+		padding: 39px 0 23px 0;
+	}
+
+	.form-inner {
+	    display: block;
+	    margin: 25px auto 8px auto;
+	}
+
+	.form-inner .col:nth-child(1),
+	.form-inner .col:nth-child(2) {
+		display: block;
+		padding: 10px 10px 10px 0;
+	}
+
+	.form-inner .col:nth-child(2) {
+		width: 100%;
+		text-align: center;
+	}
+
+	.form-inner .transparent-pill {
+	    max-width: 204px;
+	}
+
+	input {
+	    height: 41px;
+	    padding: 0 16px;
+	    font-size: 14px;
+	    line-height: 41px;
+	}
+
+	/*-- /Section 6 - Main Page --*/
+
+	/*-- Section 7 - Main Page --*/
+
+	.contacts_wrapp {
+	    margin: 40px 0 20px 0;
+	}
+
+	.map-wrapp {
+	    height: 250px;
+	    margin: 28px 0 8px 0;
+	}
+
+	#map {
+	    height: 270px;
+	}
+
+	/*-- /Section 7 - Main Page --*/
+
+	/*-- Footer --*/
+
+	.footer p {
+	    padding: 10px 0 22px 0;
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+
+	/*-- /Footer --*/
+
+}
+
+
 @media only screen and (max-width: 480px) {
 
+	.title_wrapp h2 {
+	    padding: 2px 0 20px 0;
+	    font-size: 26px;
+	    line-height: 35px;
+	}
+
+	.title_wrapp h4 {
+	    font-size: 14px;
+	    line-height: 20px;
+	    font-weight: normal;
+	}
+
+	/*-- Section 1 - Main Page --*/
+
+	.promo-descript p {
+	    font-size: 13px;
+	    line-height: 24px;
+	}
+
+	/*-- /Section 1 - Main Page --*/
+
+	/*-- Section 3 - Main Page --*/
+
+	.bg_2:before {
+	    height: 230px;
+	    background-image: url(img/bg_2_resp.jpg);
+	}
+
+	.transparent-pill_2 {
+	    min-width: 100%;
+	    padding: 11px 10px 10px 10px;
+	    font-size: 14px;
+	}
+
+	/*-- /Section 3 - Main Page --*/
+
+	/*-- Section 4 - Main Page --*/
+
+	.slider-2 .slide {
+	    height: 116px;
+	}
+
+	/*-- /Section 4 - Main Page --*/
+
+	/*-- Section 6 - Main Page --*/
+
+	.callback-sect .title_wrapp {
+	    margin: 10px 0;
+	}
 	
-	
+	/*-- /Section 6 - Main Page --*/
+}
+
+@media only screen and (max-width: 360px) {
+
+	/*-- Section 2 - Main Page --*/
+
+	.big_slider .slide {
+	    height: 175px;
+	}
+
+	.miniature {
+	    height: 80px;
+	}
+
+	/*-- /Section 2 - Main Page --*/
+
+	/*-- Section 6 - Main Page --*/
+
+	.callback-form h3 {
+	    font-size: 14px;
+	    line-height: 19px;
+	}
+
+	.soc-tag {
+	    padding: 4px 24px;
+	    font-size: 16px;
+	}
+
+	/*-- /Section 6 - Main Page --*/
+
+	/*-- Section 7 - Main Page --*/
+
+	.contact_thumb {
+	    margin-bottom: 16px;
+	}
+
+	.contact_thumb h4 {
+	    line-height: 21px;
+	}
+
+	.contact_thumb p {
+	    font-size: 14px;
+	    line-height: 23px;
+	}
+
+	.contact_thumb p a {
+	    font-size: 14px;
+	    line-height: 23px;
+	}
+
+	/*-- /Section 7 - Main Page --*/
+
 }
 
 @media only screen and (max-width: 320px) {

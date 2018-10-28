@@ -26,7 +26,16 @@ $(document).ready(function() {
 	  infinite: false,
 	  focusOnSelect: true,
 	  slickNext: $(".slider_1-nav .prev-btn"),
-	  slickPrev: $(".slider_1-nav .next-btn")
+	  slickPrev: $(".slider_1-nav .next-btn"),
+	  responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          }
+        },
+      ]
 	});
 
 	$('#slider1 .prev-btn').click(function(){
@@ -41,7 +50,30 @@ $(document).ready(function() {
 	  slidesToShow: 5,
 	  slidesToScroll: 1,
 	  arrows: true,
-	  dots: false
+	  dots: false,
+	  responsive: [
+        {
+          breakpoint: 1060,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 850,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+      ]
 	});
 
 });

@@ -825,9 +825,16 @@ textarea:focus {
     position: relative;
 }
 
+
+/*-------------*/
+
 .promo-descript {
     padding: 87px 0 45px 0;
+    position: relative;
+    z-index: 2;
 }
+
+/*-------------*/
 
 .promo-descript h1 {
     display: block;
@@ -867,12 +874,15 @@ textarea:focus {
     font-style: italic;
 }
 
+/*-------------*/
+
 .promo-sect .row .promo-img {
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: 2;
 }
+
+/*-------------*/
 
 /*-- /Section 1 - Main Page --*/
 
@@ -984,22 +994,22 @@ textarea:focus {
 }
 
 .slider-1_wrapp {
+    width: 100%;
     max-width: 550px;
     padding: 23px 0;
     float: right;
-}
-
-.big_slider {
-
 }
 
 .big_slider .slide {
     height: 360px;
     overflow: hidden;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.big_slider .slide img {
+/*.big_slider .slide img {
     display: block;
     width: auto;
     height: auto;
@@ -1011,7 +1021,7 @@ textarea:focus {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
+}*/
 
 .miniature_slider {
     /*margin: 0 -12px;*/
@@ -1021,6 +1031,9 @@ textarea:focus {
 .miniature_slider .slide {
     /*padding: 12px;*/
     padding: 0 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .miniature {
@@ -1029,7 +1042,7 @@ textarea:focus {
     position: relative;
     overflow: hidden;
 }
-
+/*
 .miniature img  {
     display: block;
     width: auto;
@@ -1042,7 +1055,7 @@ textarea:focus {
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-}
+}*/
 
 .miniature .mask {
     width: 100%;
@@ -1174,7 +1187,7 @@ textarea:focus {
     vertical-align: top;
     width: 30.33%;
     margin: 10px 1.5%;
-    padding: 10px 30px;
+    padding: 10px 30px 30px 30px;
     background-color: rgb(255, 255, 255);
     -webkit-box-shadow: 0 0 24.18px 1.82px rgba(17, 17, 22, .08);
     -moz-box-shadow: 0 0 24.18px 1.82px rgba(17, 17, 22, .08);
@@ -1183,7 +1196,8 @@ textarea:focus {
 
 .thumb-2 .icon-box {
     height: 127px;
-    margin: 26px 0 50px 0;
+    max-width: 120px;
+    margin: 26px auto 50px auto;
     position: relative;
 }
 
@@ -1194,7 +1208,7 @@ textarea:focus {
     height: 64px;
     position: absolute;
     bottom: 0;
-    right: 20%;
+    right: -28%;
     background-image: url(img/icon_shape.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -1225,7 +1239,7 @@ textarea:focus {
 }
 
 .thumb-2 .descript {
-    min-height: 120px;
+    min-height: 102px;
 }
 
 .two-cols-templ_2 {
@@ -1465,6 +1479,7 @@ textarea:focus {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 2;
     padding: 63px 0 117px 0;
     -webkit-transition-property: opacity;
     -webkit-transition-duration: .3s;
@@ -1519,15 +1534,19 @@ textarea:focus {
 }
 
 .slider-2 .slide {
-
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
-
+/*
 .slider-2 .img-box {
     height: 170px;
     overflow: hidden;
     position: relative;
-}
-
+}*/
+/*
 .slider-2 .img-box img {
     display: block;
     width: auto;
@@ -1540,7 +1559,7 @@ textarea:focus {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
+}*/
 
 .slider-2 {
     position: relative;
@@ -1637,6 +1656,21 @@ textarea:focus {
     right: -6.5%;
 }
 
+.tab-doctor_resp {
+    display: none;
+    padding-top: 25px;
+    background-color: #d7b975;
+}
+
+.tab-doctor_resp img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 98%;
+    max-height: 98%;
+    margin: 0 auto;
+}
+
 /*-- /Section 4 - Main Page --*/
 
 /*-- Section 5 - Main Page --*/
@@ -1650,10 +1684,17 @@ textarea:focus {
 }
 
 .testimonial {
-    display: table;
-    width: 100%;
+/*    display: table;
+    width: 100%;*/
     padding: 12px 0 27px 0;
     border-bottom: 1px solid #e8e9ed;
+}
+
+.testimonial .inner {
+    display: table;
+    width: 100%;
+/*    padding: 12px 0 27px 0;
+    border-bottom: 1px solid #e8e9ed;*/
 }
 
 .testimonial .col:nth-child(1) {

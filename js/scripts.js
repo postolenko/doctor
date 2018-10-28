@@ -6,6 +6,7 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
 
+    getAdaptivePositionElements();
 
 });
 
@@ -14,7 +15,9 @@ $(window).resize(function() {
 
 });
 
-$(document).ready(function() {   
+$(document).ready(function() {
+
+    getAdaptivePositionElements();
 
     $(".tabs").each(function() {
 
@@ -79,3 +82,27 @@ $(document).ready(function() {
     });
 
 });
+
+function getAdaptivePositionElements() {
+
+    $(".append-elem").each(function() {
+
+        screenParam = parseInt( $(this).attr("data-min-screen") );
+
+        indexElem = $(this).attr("data-append-desktop-elem");
+
+        if( bodyWidth <= screenParam ) {
+
+            $("[data-append-elem = '"+ indexElem +"']").append($(this).children());
+
+        }
+
+         if( bodyWidth > screenParam ) {
+
+            $("[data-append-desktop-elem = '"+ indexElem +"']").append($("[data-append-elem = '"+ indexElem +"']").children());
+
+        }
+
+    });
+
+}
